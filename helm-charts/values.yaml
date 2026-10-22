@@ -7,13 +7,13 @@ replicaCount: 1
 
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
 image:
-  repository: harbor11.lab11.sunfire.lab/cicd/travelportal
+  repository: harbor.sfo.rainpole.io/application/travelportal
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
   #digest: "sha256:a79094ecf334fa237b2c4d7c52f24bdbd2b1d5da42f932ccd6af8b494468647b"
-  digest: "sha256:99887eac7b901f593f9078c5d86d0d227e07661b81b755d6acba2a4ad9d67a39"
+  digest: "sha256:e6a79f2a75423ee522dd4d59e564953f9ca330917ec3aa2a432153140a050a8d"
   
 env:
   todoPort: 7540
