@@ -173,23 +173,18 @@ affinity: {}
 
 httpRoute:
   enabled: true
-
   annotations: {}
-
   parentRefs:
     - name: travelportal-gateway
       namespace: travelportal
       group: gateway.networking.k8s.io
       kind: Gateway
-
   hostnames:
     - travelportal.prod.vks.k8slabs.com
-
   rules:
     - matches:
         - path:
             type: PathPrefix
             value: /
-
       filters: []
 
