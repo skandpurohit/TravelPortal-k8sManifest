@@ -178,12 +178,12 @@ httpRoute:
 
   parentRefs:
     - name: travelportal-gateway
-      namespace: travelportal-lab10
+      namespace: travelportal
       group: gateway.networking.k8s.io
       kind: Gateway
 
   hostnames:
-    - travelportal.vks.lab10.k8slabs.com
+    - travelportal.prod.vks.lab10.k8slabs.com
 
   rules:
     - matches:
