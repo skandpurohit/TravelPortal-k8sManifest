@@ -183,7 +183,7 @@ httpRoute:
       kind: Gateway
 
   hostnames:
-    - travelportal.prod.vks.lab10.k8slabs.com
+    - travelportal.prod.vks.k8slabs.com
 
   rules:
     - matches:
