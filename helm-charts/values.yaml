@@ -180,7 +180,7 @@ httpRoute:
       group: gateway.networking.k8s.io
       kind: Gateway
   hostnames:
-    - travelportal.prod.vks.k8slabs.com
+    - travelportal.cncf.k8slabs.com
   rules:
     - matches:
         - path:
